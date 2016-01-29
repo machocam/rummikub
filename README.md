@@ -4,6 +4,10 @@
 
 This program minimizes the number of points that a given player is left with at the end of a game of rummikub. It, in turn, helps the player to win the game. Since there is no "emotional" content to this game, this program could essentially play instead of the human.
 
+##Origin of algorithm 
+
+Algorithm loosely based on this paper : **The complexity of Rummikub Problems** by *Jan N. van Rijn, Frank W. Takes and Jonathan K. Vis* -- http://liacs.leidenuniv.nl/~takesfw/pdf/rummikub.pdf
+
 ##Rules
 
 *Here are the rules according to http://www.rummy-games.com/rules/rummikub.html:*
