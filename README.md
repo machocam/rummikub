@@ -6,9 +6,7 @@ This program minimizes the number of points that a given player is left with at 
 
 ##Rules
 
-Here are the rules according to http://www.rummy-games.com/rules/rummikub.html: 
-
-###RULES
+*Here are the rules according to http://www.rummy-games.com/rules/rummikub.html:*
 
 SABRA WAY is played by 2, 3, or 4 people. It is played very much like cards except you play with tiles. There are 106 tiles in the game including 2 jokers.
 
