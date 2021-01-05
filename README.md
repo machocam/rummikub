@@ -1,14 +1,14 @@
 # Rummikub
 
-##Goal
+## Goal
 
 This program minimizes the number of points that a given player is left with at the end of a game of rummikub. It, in turn, helps the player to win the game. Since there is no "emotional" content to this game, this program could essentially play instead of the human.
 
-##Origin of algorithm 
+## Origin of algorithm 
 
 Algorithm loosely based on this paper : **The complexity of Rummikub Problems** by *Jan N. van Rijn, Frank W. Takes and Jonathan K. Vis* -- http://liacs.leidenuniv.nl/~takesfw/pdf/rummikub.pdf
 
-##Rules
+## Rules
 
 *Here are the rules according to http://www.rummy-games.com/rules/rummikub.html:*
 
@@ -20,23 +20,23 @@ The object of the game is to be the first to eliminate all the tiles from your r
 
 Your objective, therefore, is to keep as few points in your hand as possible.
 
-###SETTING UP THE GAME
+### SETTING UP THE GAME
 
 Mix the tiles thoroughly face downward on the table. Each player picks a tile to see who goes first. The one who selects the highest tile is the first to play. The others follow going counterclockwise.
 
 After you determine who plays first, all the players pick 14 tiles.
 
-###BEGINNING
+### BEGINNING
 
 In order to place tiles on the table each player must make an initial meld of 50 points in one or more sets. These points must come from tiles in the hand only and not from tiles already on the table. Each tile is worth the number of points as valued on the tile. A joker may be substituted for any tile and its point value is the same as the tile it represents when melding, and worth 30 points when held on your rack while another player wins.
 
-###RUNS
+### RUNS
 
 All runs must consist of at least 3 tiles of the same color -
 ```
 EXAMPLES:4, 5, 6 red     1, 2, 3, 4 orange
 ```
-###GROUPS
+### GROUPS
 
 Groups must consist of 3 or 4 tiles of different colors
 ```
@@ -44,7 +44,7 @@ EXAMPLE:#4 red, #4 blue, #4 black
 
 Not acceptable: #4 orange, #4 orange, #4 red
 ```
-###SCORING
+### SCORING
 
 Each loser adds up the value of the tiles left on his rack, counting 30 points for a joker and face value for all other tiles, and scores this as a minus (negative) amount.
 
