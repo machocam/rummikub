@@ -1,12 +1,10 @@
 #------------------------------------
 #Author : Rodrigo Camacho 
-#Twitter: @machocam  -> contact me there if you have something to say
+#Twitter: @mixcocam  -> contact me there if you have something to say
 
 #DESCRIPTION:
-##This program minimizes the number of points that a given player is left with at the end of a game of rummikub. It, in turn, helps the player to win the game. Since there is no "emotional" content to this game, this program could essentially play instead of the human.
+##This program minimizes (using heuristics) the number of points that a given player is left with at the end of a game of rummikub. It, in turn, helps the player to win the game. Since there is no "emotional" content to this game, this program could essentially play instead of the human.
 
-#RULES OF THE GAME: 
-##You are allowed to 
 #------------------------------------
 
 #Every chip on the either the board, or the table is going to be an entery in an array within an array that will contain them all.
